@@ -139,3 +139,7 @@ nav{
         display: flex;
     }
 }
+
+@media screen and (max-width: 700px){
+	#imgBtn > .imgg,img{
+		width:40vh;
