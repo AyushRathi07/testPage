@@ -88,7 +88,7 @@ nav{
 }
 
 #imgBtn > .imgg,img {
-    width: 60vh;
+    /*width: 60vh;*/
     height: 40vh;
 }
 
@@ -134,14 +134,31 @@ nav{
     background-color: #85D8CE;
 }
 
+@media screen and (max-width: 700px){
+    #imgBtn{
+        width: 40vh;
+    }
+    #imgBtn > img{
+        width: 40vh;
+    }
+    .imgg{
+        width: 40vh;
+    }
+}
+
 @media screen and (min-width: 700px){
     #cont{
         display: flex;
     }
-}
+    #imgBtn{
+        width: 60vh;
+    }
 
-@media screen and (max-width: 700px){
-	#imgBtn > .imgg,img{
-		width:40vh;
-	}
+    #imgBtn > img{
+        width: 60vh;
+    }
+
+    .imgg{
+        width: 60vh;
+    }
 }
