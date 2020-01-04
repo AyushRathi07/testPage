@@ -146,6 +146,15 @@ nav{
     }
     .Spotlight{
 	    font-size:3.5em;
+    }
+     #imgBtn > button {
+	     margin-left: 45%;
+    }
+	.lt{
+		font-size: 15px;
+	}
+	.ht{
+		font-size: 18px;
 	}
 	
 }
